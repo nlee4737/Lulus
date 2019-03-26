@@ -1,0 +1,41 @@
+/*written by Gabe*/
+.grid-container {
+  display: grid;
+  grid-template-columns: 25% 25%;
+  padding: 5px;
+  justify-items: center;
+  justify-content: space-evenly;
+  grid-column-gap: 50px;
+  grid-row-gap: 15px;
+}
+p {
+    text-align:center;
+}
+.grid-item {  
+  padding: 15px;
+  font-size: 15px;
+}
+a {
+    color: purple;
+} 
+a:visited {
+    color:red;
+}
+
+.bannerArea {
+	grid-area:bannerArea;
+	background-image: url('../assets/lulusnew.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+ }
+  h3{
+      text-align: center;
+      color: black;
+  }
+  h3:active{
+      color:blue;
+  }
+  h3:hover { text-decoration: none; color: blue; }
+  h3:focus { text-decoration: none; color: blue; }
+  h3:hover, h3:active { text-decoration: none; color: blue; }

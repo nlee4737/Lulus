@@ -1,0 +1,64 @@
+/*Written by Nathan*/
+.grid {
+   grid-area:bodyArea;
+   justify-items:center;
+   background-color: #c4dbad;
+   background-image: url("assets/brushed-alum-dark.png");
+   margin:auto;
+   width:100%;
+   display:grid;
+   grid-template-rows:auto;
+   grid-template-columns:1fr 1fr 1fr;
+   grid-template-areas:
+   'item2 item1 item3'
+   'item5 item1 item4'
+   'item5 item1 item4'    
+ }
+ .item1{
+   grid-area:item1;
+   font-size:large;
+   margin-top:15px;
+ }
+ .item2{
+   grid-area:item2;
+   margin-top:15px;
+ }
+ .item3{
+   grid-area:item3;
+   margin:auto;
+ }
+ .item4{
+   grid-area:item4;
+   margin-bottom:15px;
+ }
+ .item5{
+   grid-area:item5;
+   margin:auto;
+ }
+
+#liItem {
+    margin:40px 0;
+}
+p::first-letter {
+    font-size:200%;
+}
+ #logo { position: relative;
+		 -webkit-animation-name: fade;
+		 -webkit-animation-duration: 4s;
+		 animation-name: fade;
+		 animation-duration: 4s;
+ }
+ @-webkit-keyframes fade {
+	from {opacity: .1}
+	to {opacity: 1}
+ }
+  .imgs { position: relative;
+		 -webkit-animation-name: fade2;
+		 -webkit-animation-duration: 4s;
+		 animation-name: fade2;
+		 animation-duration: 4s;
+ }
+ @-webkit-keyframes fade2 {
+	from {opacity: .1}
+	to {opacity: 1}
+ }
